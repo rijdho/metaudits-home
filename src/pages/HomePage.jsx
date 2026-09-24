@@ -35,7 +35,7 @@ function AuditCard({ audit }) {
   // a name, or a short phrase with its own translation key (val.<text>).
   const value = (v) => (t(`val.${v}`) === `val.${v}` ? formatStat(v, locale) : t(`val.${v}`));
   return (
-    <a href={audit.href} className="card tool-card fade-in">
+    <a href={audit.href} className={`card tool-card fade-in${locked ? " is-locked" : ""}`}>
       <div className="tool-head">
         <span className="tool-theme">{t(`theme.${audit.category}`)}</span>
         <span className="tool-flags">
