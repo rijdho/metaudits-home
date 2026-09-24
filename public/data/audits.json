@@ -3,7 +3,7 @@
     "id": "repo-metaudits",
     "category": "scholarly",
     "access": "open",
-    "title": "FAIR Readout Server",
+    "title": "FAIR Metadata Check (Extended)",
     "badge": "OAI-PMH + DataCite + Custom API",
     "description": "Evaluates metadata quality of digital repositories against the FAIR Principles. Connects to OAI-PMH endpoints, DataCite records, or any custom REST API (CSW, STAC, CKAN, and more), harvests metadata, and runs a structured assessment across 14 sub-principles.",
     "href": "https://metaudits.rijdho.org/repo-metaudits/",
@@ -215,18 +215,18 @@
     "category": "scholarly",
     "kind": "tool",
     "access": "open",
-    "title": "FAIR Readout",
+    "title": "FAIR Metadata Check",
     "badge": "DataCite + OAI-PMH",
-    "description": "Score the FAIR metadata quality of any DataCite or OAI-PMH repository, entirely in your browser: live harvest, 14 sub-principles, nothing uploaded. The open twin of FAIR Readout Server.",
+    "description": "Score the FAIR metadata quality of any DataCite or OAI-PMH repository, entirely in your browser: live harvest, 14 sub-principles, nothing uploaded. The open twin of FAIR Metadata Check (Extended).",
     "href": "https://rijdho.github.io/fair-repo-audit/",
     "repo": "https://github.com/rijdho/fair-repo-audit",
     "lastUpdated": "2026-09-24",
     "i18n": {
       "es": {
-        "description": "Puntúa la calidad FAIR de los metadatos de cualquier repositorio DataCite u OAI-PMH, todo en el navegador: cosecha en vivo, 14 subprincipios, nada se sube. El gemelo abierto de FAIR Readout Server."
+        "description": "Puntúa la calidad FAIR de los metadatos de cualquier repositorio DataCite u OAI-PMH, todo en el navegador: cosecha en vivo, 14 subprincipios, nada se sube. El gemelo abierto de FAIR Metadata Check (Extended)."
       },
       "de": {
-        "description": "Bewertet die FAIR-Metadatenqualität jedes DataCite- oder OAI-PMH-Repositoriums vollständig im Browser: Live-Abruf, 14 Teilprinzipien, nichts wird hochgeladen. Der offene Zwilling von FAIR Readout Server."
+        "description": "Bewertet die FAIR-Metadatenqualität jedes DataCite- oder OAI-PMH-Repositoriums vollständig im Browser: Live-Abruf, 14 Teilprinzipien, nichts wird hochgeladen. Der offene Zwilling von FAIR Metadata Check (Extended)."
       }
     },
     "host": "github",
