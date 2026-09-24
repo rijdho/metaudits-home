@@ -152,7 +152,8 @@
       }
     },
     "kind": "tool",
-    "host": "cloudflare"
+    "host": "cloudflare",
+    "license": "Apache-2.0 · CC BY 4.0"
   },
   {
     "id": "scielo-chile",
@@ -256,7 +257,8 @@
       }
     },
     "kind": "dashboard",
-    "host": "cloudflare"
+    "host": "cloudflare",
+    "license": "Apache-2.0 · CC BY 4.0"
   },
   {
     "id": "fair-repo-audit",

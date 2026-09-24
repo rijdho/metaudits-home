@@ -10,7 +10,7 @@ export default {
   'rail.credits': 'Von [Ricardo Hartley Belmar](https://rijdho.github.io)',
   'home.eyebrow': 'Metadaten-Prüfungen',
   'home.title': 'Wie gut ist Forschung beschrieben?',
-  'home.lede': 'Prüfungen der Metadaten, die Forschung in den Registern hinterlässt, die sie durchläuft: DataCite, Crossref, ORCID, OpenAlex und die Repositorien selbst. Werkzeuge für den eigenen Fall und Dashboards bereits durchgeführter Prüfungen. Jedes veröffentlicht seine Zahlen und nennt seine Quellen. Erstellt von Ricardo Hartley Belmar.',
+  'home.lede': 'Prüfungen der Metadaten, die Forschung in den Registern hinterlässt, die sie durchläuft: DataCite, Crossref, ORCID, OpenAlex und die Repositorien selbst. Werkzeuge für den eigenen Fall und Dashboards bereits durchgeführter Prüfungen. Jedes veröffentlicht seine Zahlen und nennt seine Quellen.',
   'card.locked': 'Passwortgeschützt',
   'card.updated': 'aktualisiert {date}',
   'theme.scholarly': 'Wissenschaftliche Metadaten',

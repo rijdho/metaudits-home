@@ -10,24 +10,25 @@
 .section-head .count { font-family: var(--mono); font-size: .75rem; color: var(--muted);
   background: var(--surface-2); border-radius: 6px; padding: 1px 7px; }
 
-.tool-grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); align-items: stretch; }
-.tool-card { display: flex; flex-direction: column; text-decoration: none; color: inherit;
+/* Compact cards: four to a row on a desktop, less padding than the house .card. */
+.tool-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); align-items: stretch; }
+.tool-card { display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 16px;
   transition: border-color .15s, transform .15s; }
 .tool-card:hover { border-color: var(--brand); transform: translateY(-2px); }
-.tool-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
-.tool-theme { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+.tool-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.tool-theme { font-family: var(--mono); font-size: 9px; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap;
   color: var(--brand); background: var(--brand-soft); border-radius: 6px; padding: 3px 8px; }
 .lock { color: var(--muted); display: inline-flex; }
 .lock svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; }
-.tool-title { font-size: 1.15rem; margin: 0 0 8px; }
-.tool-desc { color: var(--muted); font-size: .88rem; margin: 0 0 16px; flex-grow: 1; }
-.tool-stats { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0 0 16px; }
+.tool-title { font-size: 1rem; margin: 0 0 6px; }
+.tool-desc { color: var(--muted); font-size: .8rem; line-height: 1.45; margin: 0 0 12px; flex-grow: 1; }
+.tool-stats { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 12px; }
 .tool-stats dt { font-family: var(--mono); font-size: .68rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
-.tool-stats dd { margin: 0; font-family: var(--mono); font-weight: 700; color: var(--brand); }
-.tool-foot { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--hair);
-  display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.tool-stats dd { margin: 0; font-family: var(--mono); font-weight: 700; font-size: .9rem; color: var(--brand); }
+.tool-foot { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--hair);
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 8px; }
 .tool-badge { font-family: var(--mono); font-size: 10px; color: var(--muted); border: 1px solid var(--border);
-  border-radius: 7px; padding: 2px 8px; line-height: 1.4; }
+  border-radius: 7px; padding: 2px 8px; line-height: 1.4; white-space: nowrap; }
 .tool-date { font-family: var(--mono); font-size: 10px; color: var(--muted); opacity: .75; white-space: nowrap; }
 
 /* Ends at the element's resting opacity and fills backwards only, so once it is over the element's

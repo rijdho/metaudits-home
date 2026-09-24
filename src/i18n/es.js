@@ -10,7 +10,7 @@ export default {
   'rail.credits': 'Por [Ricardo Hartley Belmar](https://rijdho.github.io)',
   'home.eyebrow': 'Auditorías de metadatos',
   'home.title': '¿Qué tan bien está descrita la investigación?',
-  'home.lede': 'Auditorías de los metadatos que la investigación deja en los registros por los que pasa: DataCite, Crossref, ORCID, OpenAlex y los propios repositorios. Herramientas para aplicar a tu propio caso, y dashboards de auditorías ya hechas. Cada una publica sus cifras y nombra sus fuentes. Creado por Ricardo Hartley Belmar.',
+  'home.lede': 'Auditorías de los metadatos que la investigación deja en los registros por los que pasa: DataCite, Crossref, ORCID, OpenAlex y los propios repositorios. Herramientas para aplicar a tu propio caso, y dashboards de auditorías ya hechas. Cada una publica sus cifras y nombra sus fuentes.',
   'card.locked': 'Con contraseña',
   'card.updated': 'actualizado {date}',
   'theme.scholarly': 'Metadatos académicos',

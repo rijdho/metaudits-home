@@ -10,7 +10,7 @@ export default {
   'rail.credits': 'By [Ricardo Hartley Belmar](https://rijdho.github.io)',
   'home.eyebrow': 'Metadata audits',
   'home.title': 'How well is research described?',
-  'home.lede': 'Audits of the metadata research leaves behind in the registries it passes through: DataCite, Crossref, ORCID, OpenAlex and the repositories themselves. Tools you run on your own case, and dashboards of audits already done. Each one publishes its figures and names its sources. Built by Ricardo Hartley Belmar.',
+  'home.lede': 'Audits of the metadata research leaves behind in the registries it passes through: DataCite, Crossref, ORCID, OpenAlex and the repositories themselves. Tools you run on your own case, and dashboards of audits already done. Each one publishes its figures and names its sources.',
   'card.locked': 'Password-protected',
   'card.updated': 'updated {date}',
   'theme.scholarly': 'Scholarly metadata',
