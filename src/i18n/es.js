@@ -11,7 +11,7 @@ export default {
   'rail.protected': 'Con contraseña',
   'rail.elsewhere': 'En otros lugares',
   'rail.site': 'Sitio personal',
-  'rail.credits': 'por [@rijdho](https://rijdho.github.io) · MIT · CC BY 4.0',
+  'rail.credits': 'Por [Ricardo Hartley Belmar](https://rijdho.github.io)',
   'home.eyebrow': 'Auditorías de metadatos',
   'home.title': '¿Qué tan bien está descrita la investigación?',
   'home.lede': 'Auditorías de los metadatos que la investigación deja en los registros por los que pasa: DataCite, Crossref, ORCID, OpenAlex y los propios repositorios. Cada herramienta mide una brecha, publica sus cifras y nombra sus fuentes. Hecho por Ricardo Hartley Belmar.',

@@ -11,7 +11,7 @@ export default {
   'rail.protected': 'Password-protected',
   'rail.elsewhere': 'Elsewhere',
   'rail.site': 'Personal site',
-  'rail.credits': 'by [@rijdho](https://rijdho.github.io) · MIT · CC BY 4.0',
+  'rail.credits': 'By [Ricardo Hartley Belmar](https://rijdho.github.io)',
   'home.eyebrow': 'Metadata audits',
   'home.title': 'How well is research described?',
   'home.lede': 'Audits of the metadata research leaves behind in the registries it passes through: DataCite, Crossref, ORCID, OpenAlex and the repositories themselves. Each tool measures one gap, publishes its figures and names its sources. Built by Ricardo Hartley Belmar.',

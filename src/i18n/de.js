@@ -11,7 +11,7 @@ export default {
   'rail.protected': 'Passwortgeschützt',
   'rail.elsewhere': 'Anderswo',
   'rail.site': 'Persönliche Website',
-  'rail.credits': 'von [@rijdho](https://rijdho.github.io) · MIT · CC BY 4.0',
+  'rail.credits': 'Von [Ricardo Hartley Belmar](https://rijdho.github.io)',
   'home.eyebrow': 'Metadaten-Prüfungen',
   'home.title': 'Wie gut ist Forschung beschrieben?',
   'home.lede': 'Prüfungen der Metadaten, die Forschung in den Registern hinterlässt, die sie durchläuft: DataCite, Crossref, ORCID, OpenAlex und die Repositorien selbst. Jedes Werkzeug misst eine Lücke, veröffentlicht seine Zahlen und nennt seine Quellen. Erstellt von Ricardo Hartley Belmar.',

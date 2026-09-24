@@ -59,7 +59,11 @@ function App() {
             {t("rail.site")}
           </a>
         </nav>
-        <div className="rail-foot">{tr("rail.credits")}</div>
+        <div className="rail-foot">
+          {tr("rail.credits")}<br />
+          {t("footer.license")}<br />
+          {tr("footer.source")}
+        </div>
       </aside>
       <button className="rail-backdrop" aria-label={t("top.closeMenu")} tabIndex={-1} onClick={() => setRailOpen(false)} />
 
