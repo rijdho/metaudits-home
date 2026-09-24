@@ -12,7 +12,6 @@ Available in **English, German and Spanish** (auto-detected, switchable).
 ```
 src/main.jsx            the house shell: rail, command bar, footer
 src/pages/HomePage.jsx  the cards, in two sections: tools and dashboards
-src/format.js           stat values in the interface language
 src/i18n/               en.js (source of truth), es.js, de.js
 src/house/              an exact copy of rijdho/house-style: never edit, run `npm run sync-house`
 src/app.css             styles for this page only
@@ -28,8 +27,7 @@ is public) or Cloudflare Pages. Where a tool declares a licence, its short names
 To add or change one, edit `public/data/audits.json`: `id`, `kind` (`tool` or `dashboard`),
 `category`, `access` (`open` or `protected`), `title`, `badge`, `description` (English),
 `i18n.es.description`, `i18n.de.description`, `href` (absolute), `host` (`github` or `cloudflare`, checked
-against `href`), `repo` and `license` (only where they exist), `stats` and `lastUpdated`. Stat values like `"46.9%"` or `"1.32M"` are formatted for
-each language (`src/format.js`). The tests say what is missing.
+against `href`), `repo`, `license` and `version` (only where they exist), and `lastUpdated`. The tests say what is missing.
 
 ## Running it
 

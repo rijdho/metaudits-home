@@ -22,14 +22,13 @@
 .lock svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; }
 .tool-title { font-size: 1rem; margin: 0 0 6px; }
 .tool-desc { color: var(--muted); font-size: .8rem; line-height: 1.45; margin: 0 0 12px; flex-grow: 1; }
-.tool-stats { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 12px; }
-.tool-stats dt { font-family: var(--mono); font-size: .68rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
-.tool-stats dd { margin: 0; font-family: var(--mono); font-weight: 700; font-size: .9rem; color: var(--brand); }
 .tool-foot { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--hair);
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 8px; }
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.tool-version { font-family: var(--mono); font-size: 10px; font-weight: 700; color: var(--brand); }
+.tool-meta { margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 4px 12px; font-family: var(--mono); font-size: 10px;
+  color: var(--muted); }
 .tool-badge { font-family: var(--mono); font-size: 10px; color: var(--muted); border: 1px solid var(--border);
   border-radius: 7px; padding: 2px 8px; line-height: 1.4; white-space: nowrap; }
-.tool-date { font-family: var(--mono); font-size: 10px; color: var(--muted); opacity: .75; white-space: nowrap; }
 
 /* Ends at the element's resting opacity and fills backwards only, so once it is over the element's
    own opacity rules (the locked cards, their hover) apply again. */
@@ -40,8 +39,6 @@
 .tool-flags { display: inline-flex; align-items: center; gap: 8px; }
 .host-mark { display: inline-flex; color: var(--ink-2); }
 .host-mark svg { width: 20px; height: 20px; fill: currentColor; }
-.tool-license { margin: 10px 0 0; font-family: var(--mono); font-size: 10.5px; letter-spacing: .04em;
-  color: var(--ink-2); }
 .legend { font-size: 13px; margin-top: 6px; }
 
 /* Password-protected cards recede a little, and come back on hover or keyboard focus. */

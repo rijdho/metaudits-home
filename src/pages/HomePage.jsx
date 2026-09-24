@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useI18n } from "../i18n/index.jsx";
-import { formatStat } from "../format.js";
 import { HOST_ICONS } from "../hostIcons.js";
 
 // Cards are sorted by theme within each section (tools, dashboards), so same-theme cards cluster.
@@ -28,12 +27,9 @@ function HostMark({ host, label }) {
 }
 
 function AuditCard({ audit }) {
-  const { t, lang, locale } = useI18n();
+  const { t, lang } = useI18n();
   const locked = audit.access === "protected";
   const description = audit.i18n?.[lang]?.description ?? audit.description;
-  // A stat value is a number or figure (formatted in the interface language, src/format.js),
-  // a name, or a short phrase with its own translation key (val.<text>).
-  const value = (v) => (t(`val.${v}`) === `val.${v}` ? formatStat(v, locale) : t(`val.${v}`));
   return (
     <a href={audit.href} className={`card tool-card fade-in${locked ? " is-locked" : ""}`}>
       <div className="tool-head">
@@ -45,21 +41,14 @@ function AuditCard({ audit }) {
       </div>
       <h2 className="tool-title">{audit.title}</h2>
       <p className="tool-desc">{description}</p>
-      <dl className="tool-stats">
-        {Object.entries(audit.stats).map(([key, val]) => (
-          <div key={key}>
-            <dt>{t(`stat.${key}`)}</dt>
-            <dd>{value(val)}</dd>
-          </div>
-        ))}
-      </dl>
+      {/* Below the line: where the data comes from, the version, when it was updated, the licence. */}
       <div className="tool-foot">
         <span className="tool-badge">{audit.badge}</span>
-        {audit.lastUpdated && <span className="tool-date">{t("card.updated", { date: audit.lastUpdated })}</span>}
+        {audit.version && <span className="tool-version">{audit.version}</span>}
       </div>
-      {/* Always present, so the footers of neighbouring cards line up; empty where no licence is declared. */}
-      <p className="tool-license" title={audit.license ? t("card.license") : undefined} aria-hidden={!audit.license}>
-        {audit.license || "\u00a0"}
+      <p className="tool-meta">
+        {audit.lastUpdated && <span>{t("card.updated", { date: audit.lastUpdated })}</span>}
+        {audit.license && <span title={t("card.license")}>{audit.license}</span>}
       </p>
     </a>
   );

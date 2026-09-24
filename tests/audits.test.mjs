@@ -21,12 +21,11 @@ test('every card has a known kind, access level and theme', () => {
     for (const cat of [en, es, de]) assert.ok(cat[`theme.${a.category}`], `${a.id}: theme ${a.category}`);
   }
 });
-test('every stat has a label, and text values have translations', () => {
-  for (const a of audits)
-    for (const [k, v] of Object.entries(a.stats)) {
-      for (const cat of [en, es, de]) assert.ok(cat[`stat.${k}`], `${a.id}: stat.${k}`);
-      if (typeof v === 'string' && /^[a-z ]+$/.test(v)) for (const cat of [en, es, de]) assert.ok(cat[`val.${v}`], `${a.id}: val.${v}`);
-    }
+test('a version, where given, is vN.N.N', () => {
+  for (const a of audits) if ('version' in a) assert.match(a.version, /^v\d+\.\d+\.\d+$/, `${a.id}: ${a.version}`);
+});
+test('no card carries figures any more', () => {
+  for (const a of audits) assert.ok(!('stats' in a), `${a.id}: stats`);
 });
 test('no em dash in the cards', () => {
   assert.ok(!JSON.stringify(audits).includes('—'));
