@@ -36,13 +36,13 @@ function App() {
   return (
     <div className={`app${railOpen ? " rail-open" : ""}`}>
       <aside className="rail">
-        <a className="brand-mark" href="./">
+        <div className="brand-mark">
           <span className="brand-glyph" style={{ "--glyph": "'MA'" }} aria-hidden="true" />
           <span>
             <p className="brand-name">{t("app.title")}</p>
-            <p className="brand-sub">rijdho.github.io</p>
+            <a className="brand-sub" href="https://rijdho.github.io">rijdho.github.io</a>
           </span>
-        </a>
+        </div>
         <nav aria-label={t("rail.tools")}>
           <div className="nav-label">{t("rail.tools")}</div>
           {nav.map((item) => (
