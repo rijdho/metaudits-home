@@ -52,13 +52,6 @@ function App() {
             </a>
           ))}
         </nav>
-        <nav aria-label={t("rail.elsewhere")}>
-          <div className="nav-label">{t("rail.elsewhere")}</div>
-          <a className="nav-item" href="https://rijdho.github.io">
-            <span className="nav-step" aria-hidden="true">RH</span>
-            {t("rail.site")}
-          </a>
-        </nav>
         <div className="rail-foot">
           {tr("rail.credits")}<br />
           {/* One licence per line: the rail is too narrow for both, and would break inside "CC BY 4.0". */}

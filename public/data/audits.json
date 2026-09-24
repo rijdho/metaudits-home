@@ -21,7 +21,8 @@
         "description": "Bewertet die Metadatenqualität digitaler Repositorien nach den FAIR-Prinzipien. Verbindet sich mit OAI-PMH-Endpunkten, DataCite-Datensätzen oder einer beliebigen eigenen REST-API (CSW, STAC, CKAN und mehr), erntet die Metadaten und prüft sie auf 14 Teilprinzipien."
       }
     },
-    "kind": "tool"
+    "kind": "tool",
+    "host": "cloudflare"
   },
   {
     "id": "retractions",
@@ -45,7 +46,8 @@
         "description": "Analyse von Rückzügen: Fortbestehen der Zitationen, Erkennungsmuster und Lücken der Infrastruktur."
       }
     },
-    "kind": "dashboard"
+    "kind": "dashboard",
+    "host": "cloudflare"
   },
   {
     "id": "dirty-repos",
@@ -69,7 +71,8 @@
         "description": "Problematische Dateien mit DOI: Betriebssystemreste, Sicherheitsrisiken und Entwicklungsabfälle in DataCite-Repositorien, nach Kontinent."
       }
     },
-    "kind": "dashboard"
+    "kind": "dashboard",
+    "host": "cloudflare"
   },
   {
     "id": "publisher-gap",
@@ -93,7 +96,8 @@
         "description": "Sind Verlagen Metadaten wichtig? Zeitreihen, die Crossref-Einreichungen mit der Anreicherung durch OpenAlex vergleichen (2015-2025)."
       }
     },
-    "kind": "dashboard"
+    "kind": "dashboard",
+    "host": "cloudflare"
   },
   {
     "id": "orcid-adoption",
@@ -117,7 +121,8 @@
         "description": "Bewirken ORCID-Konsortien echte Nutzung oder nur leere Konten? Vollständigkeit der Profile an 120 Einrichtungen weltweit, mit und ohne Konsortium."
       }
     },
-    "kind": "dashboard"
+    "kind": "dashboard",
+    "host": "cloudflare"
   },
   {
     "id": "reform-assessment",
@@ -141,7 +146,8 @@
         "description": "Interaktives Werkzeug für die Reform der Forschungsbewertung an einer Einrichtung: Selbstdiagnose zu den 10 Verpflichtungen von CoARA, Aktionspläne und Verlaufskontrolle."
       }
     },
-    "kind": "tool"
+    "kind": "tool",
+    "host": "cloudflare"
   },
   {
     "id": "scielo-chile",
@@ -165,7 +171,8 @@
         "description": "Vollständigkeit der Crossref-Metadaten der Zeitschriften von SciELO Chile."
       }
     },
-    "kind": "dashboard"
+    "kind": "dashboard",
+    "host": "cloudflare"
   },
   {
     "id": "chilean-altoutputs",
@@ -190,7 +197,9 @@
       }
     },
     "kind": "dashboard",
-    "repo": "https://github.com/rijdho/chilean-altoutputs"
+    "repo": "https://github.com/rijdho/chilean-altoutputs",
+    "host": "github",
+    "license": "MIT · CC BY 4.0"
   },
   {
     "id": "austria",
@@ -214,7 +223,8 @@
         "description": "Nationale Prüfung offener Forschungsmetadaten: FAIR-Vollständigkeit aller österreichischen DataCite-Repositorien und Vollständigkeit der ORCID-Profile österreichischer Forschungseinrichtungen."
       }
     },
-    "kind": "dashboard"
+    "kind": "dashboard",
+    "host": "cloudflare"
   },
   {
     "id": "netherlands",
@@ -238,7 +248,8 @@
         "description": "Nationale Prüfung offener Forschungsmetadaten: FAIR-Vollständigkeit aller niederländischen DataCite-Repositorien und Vollständigkeit der ORCID-Profile niederländischer Forschungseinrichtungen."
       }
     },
-    "kind": "dashboard"
+    "kind": "dashboard",
+    "host": "cloudflare"
   },
   {
     "id": "fair-repo-audit",
@@ -263,7 +274,9 @@
       "de": {
         "description": "Bewertet die FAIR-Metadatenqualität jedes DataCite- oder OAI-PMH-Repositoriums vollständig im Browser: Live-Abruf, 14 Teilprinzipien, nichts wird hochgeladen. Der offene Zwilling von Repo MetAudits."
       }
-    }
+    },
+    "host": "github",
+    "license": "AGPL-3.0"
   },
   {
     "id": "orcid-finder",
@@ -288,7 +301,9 @@
       "de": {
         "description": "Findet die ORCID-Konten, die eine Einrichtung angeben, grenzt sie nach Stichwort, Rolle, Abteilung, Land und Datum ein und exportiert die Tabelle. Läuft im Browser gegen die öffentlichen APIs von ORCID und ROR."
       }
-    }
+    },
+    "host": "github",
+    "license": "AGPL-3.0"
   },
   {
     "id": "coara-action-planner",
@@ -313,7 +328,9 @@
       "de": {
         "description": "Bewerten Sie Ihre Einrichtung anhand der zehn CoARA-Verpflichtungen und erhalten Sie einen priorisierten, bearbeitbaren Reformaktionsplan. Alles läuft in Ihrem Browser."
       }
-    }
+    },
+    "host": "github",
+    "license": "AGPL-3.0 · CC BY 4.0"
   },
   {
     "id": "barcelona-wg7-tf2",
@@ -338,6 +355,8 @@
       "de": {
         "description": "Entwurf für die Barcelona-Erklärung, Arbeitsgruppe 7, Task Force 2: die neun transformativen Nutzen offener Forschungsinformation als interaktiver Explorer."
       }
-    }
+    },
+    "host": "github",
+    "license": "CC BY 4.0"
   }
 ]

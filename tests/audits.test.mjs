@@ -42,3 +42,11 @@ test('a GitHub tag points at a rijdho repository', () => {
 test('ids are unique', () => {
   assert.equal(new Set(audits.map((a) => a.id)).size, audits.length);
 });
+test('the host mark matches where the card links', () => {
+  const HOSTS = { 'rijdho.github.io': 'github', 'metaudits.rijdho.org': 'cloudflare' };
+  for (const a of audits) assert.equal(a.host, HOSTS[new URL(a.href).host], `${a.id}: ${a.host} for ${a.href}`);
+});
+test('a licence line uses the short names only', () => {
+  const KNOWN = ['MIT', 'AGPL-3.0', 'CC BY 4.0', 'CC0 1.0'];
+  for (const a of audits) if ('license' in a) for (const part of a.license.split(' · ')) assert.ok(KNOWN.includes(part), `${a.id}: ${part}`);
+});

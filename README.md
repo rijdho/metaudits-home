@@ -22,12 +22,13 @@ tests/                  catalogues in step; every card complete in every languag
 
 The page has two sections. **Tools** are interactive: the visitor brings the input (a repository,
 an institution, their own answers). **Dashboards** show an audit already done, to explore. A lock
-marks a password-protected page, and a GitHub mark a tool whose source is public.
+marks a password-protected page. A logo says where the page is served: GitHub Pages (its source
+is public) or Cloudflare Pages. Where a tool declares a licence, its short names close the card.
 
 To add or change one, edit `public/data/audits.json`: `id`, `kind` (`tool` or `dashboard`),
 `category`, `access` (`open` or `protected`), `title`, `badge`, `description` (English),
-`i18n.es.description`, `i18n.de.description`, `href` (absolute), `repo` (only for a public
-repository), `stats` and `lastUpdated`. Stat values like `"46.9%"` or `"1.32M"` are formatted for
+`i18n.es.description`, `i18n.de.description`, `href` (absolute), `host` (`github` or `cloudflare`, checked
+against `href`), `repo` and `license` (only where they exist), `stats` and `lastUpdated`. Stat values like `"46.9%"` or `"1.32M"` are formatted for
 each language (`src/format.js`). The tests say what is missing.
 
 ## Running it

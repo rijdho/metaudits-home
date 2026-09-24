@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useI18n } from "../i18n/index.jsx";
 import { formatStat } from "../format.js";
+import { HOST_ICONS } from "../hostIcons.js";
 
 // Cards are sorted by theme within each section (tools, dashboards), so same-theme cards cluster.
 const THEME_ORDER = ["scholarly", "rdm", "oer", "national"];
@@ -16,12 +17,12 @@ function LockIcon({ label }) {
   );
 }
 
-function GitHubTag({ label }) {
-  // The card is itself a link, so the tag marks the repository instead of linking to it. Icon
-  // only, like the lock: with a word it pushed long theme labels onto two lines.
+function HostMark({ host, label }) {
+  // Where the page is served: GitHub Pages (its source is public there) or Cloudflare Pages.
+  // The card is itself a link, so the mark only names the host.
   return (
-    <span className="gh-tag" title={label} aria-label={label}>
-      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" /></svg>
+    <span className={`host-mark host-${host}`} title={label} aria-label={label}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d={HOST_ICONS[host]} /></svg>
     </span>
   );
 }
@@ -38,7 +39,7 @@ function AuditCard({ audit }) {
       <div className="tool-head">
         <span className="tool-theme">{t(`theme.${audit.category}`)}</span>
         <span className="tool-flags">
-          {audit.repo && <GitHubTag label={t("card.github")} />}
+          <HostMark host={audit.host} label={t(`card.host.${audit.host}`)} />
           {locked && <LockIcon label={t("card.locked")} />}
         </span>
       </div>
@@ -56,6 +57,10 @@ function AuditCard({ audit }) {
         <span className="tool-badge">{audit.badge}</span>
         {audit.lastUpdated && <span className="tool-date">{t("card.updated", { date: audit.lastUpdated })}</span>}
       </div>
+      {/* Always present, so the footers of neighbouring cards line up; empty where no licence is declared. */}
+      <p className="tool-license" title={audit.license ? t("card.license") : undefined} aria-hidden={!audit.license}>
+        {audit.license || "\u00a0"}
+      </p>
     </a>
   );
 }
