@@ -30,3 +30,8 @@ test('every stat has a label, and text values have translations', () => {
 test('no em dash in the cards', () => {
   assert.ok(!JSON.stringify(audits).includes('—'));
 });
+test('every card links to an absolute https URL', () => {
+  // The page is served from rijdho.github.io/metaudits-home while the tools live on
+  // metaudits.rijdho.org, so a relative href would point into this repository's site.
+  for (const a of audits) assert.match(a.href, /^https:\/\/[a-z0-9.-]+\//, `${a.id}: ${a.href}`);
+});

@@ -6,7 +6,7 @@
     "title": "Repo MetAudits",
     "badge": "OAI-PMH + DataCite + Custom API",
     "description": "Evaluates metadata quality of digital repositories against the FAIR Principles. Connects to OAI-PMH endpoints, DataCite records, or any custom REST API (CSW, STAC, CKAN, and more), harvests metadata, and runs a structured assessment across 14 sub-principles.",
-    "href": "/repo-metaudits/",
+    "href": "https://metaudits.rijdho.org/repo-metaudits/",
     "stats": {
       "principles": 14,
       "protocols": "3+",
@@ -29,7 +29,7 @@
     "title": "Retraction Watch",
     "badge": "OpenAlex + Scite",
     "description": "Retraction analysis: citation persistence, detection patterns, infrastructure gaps",
-    "href": "/retractions/",
+    "href": "https://metaudits.rijdho.org/retractions/",
     "stats": {
       "articles": 60921,
       "citations": "1.32M",
@@ -52,7 +52,7 @@
     "title": "Dirty Repos",
     "badge": "DataCite",
     "description": "Problematic files with DOIs: OS artifacts, security risks, and dev debris in DataCite repositories, mapped by continent.",
-    "href": "/dirty-repos/",
+    "href": "https://metaudits.rijdho.org/dirty-repos/",
     "stats": {
       "patterns": 42,
       "dois": 1274,
@@ -75,7 +75,7 @@
     "title": "Publisher Gap",
     "badge": "Crossref + OpenAlex",
     "description": "Do publishers care about metadata? Timeline evidence comparing Crossref deposits vs OpenAlex enrichment (2015-2025)",
-    "href": "/publisher-gap/",
+    "href": "https://metaudits.rijdho.org/publisher-gap/",
     "stats": {
       "publishers": 14,
       "works": "835K+",
@@ -98,7 +98,7 @@
     "title": "ORCID Adoption",
     "badge": "ORCID + OpenAlex",
     "description": "Do ORCID consortia drive meaningful adoption or just empty accounts? Profile completeness across 120 institutions worldwide, consortium vs non-consortium.",
-    "href": "/orcid-adoption/",
+    "href": "https://metaudits.rijdho.org/orcid-adoption/",
     "stats": {
       "institutions": 120,
       "continents": 6,
@@ -121,7 +121,7 @@
     "title": "Reform Assessment",
     "badge": "CoARA + DORA + Leiden",
     "description": "Interactive toolkit for institutional research assessment reform. Self-diagnose maturity on CoARA's 10 commitments, generate action plans, and track progress.",
-    "href": "/reform-assessment/",
+    "href": "https://metaudits.rijdho.org/reform-assessment/",
     "stats": {
       "declarations": 5,
       "commitments": 10,
@@ -144,7 +144,7 @@
     "title": "SciELO Chile",
     "badge": "Crossref",
     "description": "Crossref metadata completeness for SciELO Chile journals",
-    "href": "/scielochile/",
+    "href": "https://metaudits.rijdho.org/scielochile/",
     "stats": {
       "journals": 162,
       "works": 121832,
@@ -190,7 +190,7 @@
     "title": "Austria",
     "badge": "DataCite + ORCID + ROR",
     "description": "National open-research metadata audit: FAIR completeness of every Austrian DataCite repository (population-scale) + ORCID profile completeness of Austrian research institutions.",
-    "href": "/austria/",
+    "href": "https://metaudits.rijdho.org/austria/",
     "stats": {
       "repositories": 81,
       "dois": "247K",
@@ -213,7 +213,7 @@
     "title": "Netherlands",
     "badge": "DataCite + ORCID + ROR",
     "description": "National open-research metadata audit: FAIR completeness of every Dutch DataCite repository (population-scale) + ORCID profile completeness of Dutch research institutions.",
-    "href": "/netherlands/",
+    "href": "https://metaudits.rijdho.org/netherlands/",
     "stats": {
       "repositories": 110,
       "dois": "13.1M",

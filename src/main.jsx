@@ -40,7 +40,7 @@ function App() {
           <span className="brand-glyph" style={{ "--glyph": "'MA'" }} aria-hidden="true" />
           <span>
             <p className="brand-name">{t("app.title")}</p>
-            <p className="brand-sub">metaudits.rijdho.org</p>
+            <p className="brand-sub">rijdho.github.io</p>
           </span>
         </a>
         <nav aria-label={t("rail.tools")}>

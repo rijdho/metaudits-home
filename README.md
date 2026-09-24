@@ -3,7 +3,7 @@
 The front page of **Metadata Audits**: one card per audit of how completely and how usefully research
 is described in the registries it passes through (DataCite, Crossref, ORCID, OpenAlex, repositories).
 
-🔗 **Live:** https://metaudits.rijdho.org/
+🔗 **Live:** https://rijdho.github.io/metaudits-home/
 
 Available in **English, German and Spanish** (auto-detected, switchable).
 
@@ -31,10 +31,11 @@ npm run dev
 npm test
 ```
 
-The page is served from metaudits.rijdho.org, the Cloudflare Pages site of the Metadata Audits hub.
-The hub builds this repository (`npm run build`) and publishes its `dist/` at the root; the other
-tools keep their own paths. Nothing is loaded from another origin: the fonts are self-hosted, and a
-Content-Security-Policy in `index.html` enforces it.
+The page is published to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`,
+after the tests pass. The tools themselves live on metaudits.rijdho.org, so every card links there
+with an absolute URL (a test enforces it), and the root of metaudits.rijdho.org redirects here.
+Nothing is loaded from another origin: the fonts are self-hosted, and a Content-Security-Policy in
+`index.html` enforces it.
 
 ## License
 
