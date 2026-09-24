@@ -1,6 +1,6 @@
 // Deutsch. Dieselben Schlüssel wie en.js.
 export default {
-  'app.title': 'Metadata Audits',
+  'app.title': 'Metaudits',
   'app.theme': 'Farbschema wechseln',
   'app.language': 'Sprache',
   'top.source': 'Quellcode',

@@ -1,6 +1,6 @@
 // Español. Mismas claves que en.js.
 export default {
-  'app.title': 'Metadata Audits',
+  'app.title': 'Metaudits',
   'app.theme': 'Cambiar tema',
   'app.language': 'Idioma',
   'top.source': 'código',

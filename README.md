@@ -1,6 +1,6 @@
 # metaudits-home
 
-The front page of **Metadata Audits**: one card per audit of how completely and how usefully research
+The front page of **Metaudits**, the metadata audits family: one card per audit of how completely and how usefully research
 is described in the registries it passes through (DataCite, Crossref, ORCID, OpenAlex, repositories).
 
 🔗 **Live:** https://rijdho.github.io/metaudits-home/

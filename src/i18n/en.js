@@ -1,6 +1,6 @@
 // English: the source of truth. es.js and de.js are measured against it (tests/i18n.test.mjs).
 export default {
-  'app.title': 'Metadata Audits',
+  'app.title': 'Metaudits',
   'app.theme': 'Toggle theme',
   'app.language': 'Language',
   'top.source': 'source',
