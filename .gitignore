@@ -1,0 +1,9 @@
+# Build and dependencies
+node_modules/
+dist/
+
+# Private, never committed
+_ref/
+.claude/
+.env
+.DS_Store

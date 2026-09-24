@@ -1,0 +1,34 @@
+/* Styles for this page only. The look comes from src/house/house.css (a copy of rijdho/house-style,
+   never edited here: run `npm run sync-house`). */
+
+.home { display: flex; flex-direction: column; gap: 40px; }
+.home-title { font-size: 1.9rem; margin: 8px 0 4px; }
+
+.access-section .muted { margin: 4px 0 18px; }
+.section-head { display: flex; align-items: baseline; gap: 10px; }
+.section-head h2 { font-size: 1.25rem; margin: 0; }
+.section-head .count { font-family: var(--mono); font-size: .75rem; color: var(--muted);
+  background: var(--surface-2); border-radius: 6px; padding: 1px 7px; }
+
+.tool-grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); align-items: stretch; }
+.tool-card { display: flex; flex-direction: column; text-decoration: none; color: inherit;
+  transition: border-color .15s, transform .15s; }
+.tool-card:hover { border-color: var(--brand); transform: translateY(-2px); }
+.tool-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+.tool-theme { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--brand); background: var(--brand-soft); border-radius: 6px; padding: 3px 8px; }
+.lock { color: var(--muted); display: inline-flex; }
+.lock svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; }
+.tool-title { font-size: 1.15rem; margin: 0 0 8px; }
+.tool-desc { color: var(--muted); font-size: .88rem; margin: 0 0 16px; flex-grow: 1; }
+.tool-stats { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0 0 16px; }
+.tool-stats dt { font-family: var(--mono); font-size: .68rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.tool-stats dd { margin: 0; font-family: var(--mono); font-weight: 700; color: var(--brand); }
+.tool-foot { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--hair);
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.tool-badge { font-family: var(--mono); font-size: 10px; color: var(--muted); border: 1px solid var(--border);
+  border-radius: 7px; padding: 2px 8px; line-height: 1.4; }
+.tool-date { font-family: var(--mono); font-size: 10px; color: var(--muted); opacity: .75; white-space: nowrap; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.fade-in { animation: fadeIn .25s ease-out both; }

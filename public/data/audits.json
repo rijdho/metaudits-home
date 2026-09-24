@@ -1,0 +1,232 @@
+[
+  {
+    "id": "repo-metaudits",
+    "category": "scholarly",
+    "access": "open",
+    "title": "Repo MetAudits",
+    "badge": "OAI-PMH + DataCite + Custom API",
+    "description": "Evaluates metadata quality of digital repositories against the FAIR Principles. Connects to OAI-PMH endpoints, DataCite records, or any custom REST API (CSW, STAC, CKAN, and more), harvests metadata, and runs a structured assessment across 14 sub-principles.",
+    "href": "/repo-metaudits/",
+    "stats": {
+      "principles": 14,
+      "protocols": "3+",
+      "checks": "per record"
+    },
+    "lastUpdated": "2026-07-13",
+    "i18n": {
+      "es": {
+        "description": "Evalúa la calidad de los metadatos de repositorios digitales según los principios FAIR. Se conecta a endpoints OAI-PMH, registros de DataCite o cualquier API REST propia (CSW, STAC, CKAN y más), cosecha los metadatos y los evalúa en 14 subprincipios."
+      },
+      "de": {
+        "description": "Bewertet die Metadatenqualität digitaler Repositorien nach den FAIR-Prinzipien. Verbindet sich mit OAI-PMH-Endpunkten, DataCite-Datensätzen oder einer beliebigen eigenen REST-API (CSW, STAC, CKAN und mehr), erntet die Metadaten und prüft sie auf 14 Teilprinzipien."
+      }
+    }
+  },
+  {
+    "id": "retractions",
+    "category": "scholarly",
+    "access": "open",
+    "title": "Retraction Watch",
+    "badge": "OpenAlex + Scite",
+    "description": "Retraction analysis: citation persistence, detection patterns, infrastructure gaps",
+    "href": "/retractions/",
+    "stats": {
+      "articles": 60921,
+      "citations": "1.32M",
+      "postRetraction": "46.9%"
+    },
+    "lastUpdated": "2026-06-15",
+    "i18n": {
+      "es": {
+        "description": "Análisis de retractaciones: persistencia de las citas, patrones de detección y vacíos de la infraestructura."
+      },
+      "de": {
+        "description": "Analyse von Rückzügen: Fortbestehen der Zitationen, Erkennungsmuster und Lücken der Infrastruktur."
+      }
+    }
+  },
+  {
+    "id": "dirty-repos",
+    "category": "scholarly",
+    "access": "open",
+    "title": "Dirty Repos",
+    "badge": "DataCite",
+    "description": "Problematic files with DOIs: OS artifacts, security risks, and dev debris in DataCite repositories, mapped by continent.",
+    "href": "/dirty-repos/",
+    "stats": {
+      "patterns": 42,
+      "dois": 1274,
+      "source": "DataCite"
+    },
+    "lastUpdated": "2026-04-05",
+    "i18n": {
+      "es": {
+        "description": "Archivos problemáticos con DOI: restos del sistema operativo, riesgos de seguridad y desechos de desarrollo en repositorios de DataCite, por continente."
+      },
+      "de": {
+        "description": "Problematische Dateien mit DOI: Betriebssystemreste, Sicherheitsrisiken und Entwicklungsabfälle in DataCite-Repositorien, nach Kontinent."
+      }
+    }
+  },
+  {
+    "id": "publisher-gap",
+    "category": "scholarly",
+    "access": "open",
+    "title": "Publisher Gap",
+    "badge": "Crossref + OpenAlex",
+    "description": "Do publishers care about metadata? Timeline evidence comparing Crossref deposits vs OpenAlex enrichment (2015-2025)",
+    "href": "/publisher-gap/",
+    "stats": {
+      "publishers": 14,
+      "works": "835K+",
+      "period": "2015-2025"
+    },
+    "lastUpdated": "2026-04-01",
+    "i18n": {
+      "es": {
+        "description": "¿Les importan los metadatos a las editoriales? Evidencia en el tiempo que compara los depósitos en Crossref con el enriquecimiento de OpenAlex (2015-2025)."
+      },
+      "de": {
+        "description": "Sind Verlagen Metadaten wichtig? Zeitreihen, die Crossref-Einreichungen mit der Anreicherung durch OpenAlex vergleichen (2015-2025)."
+      }
+    }
+  },
+  {
+    "id": "orcid-adoption",
+    "category": "scholarly",
+    "access": "open",
+    "title": "ORCID Adoption",
+    "badge": "ORCID + OpenAlex",
+    "description": "Do ORCID consortia drive meaningful adoption or just empty accounts? Profile completeness across 120 institutions worldwide, consortium vs non-consortium.",
+    "href": "/orcid-adoption/",
+    "stats": {
+      "institutions": 120,
+      "continents": 6,
+      "profiles": "200K+"
+    },
+    "lastUpdated": "2026-04-01",
+    "i18n": {
+      "es": {
+        "description": "¿Los consorcios ORCID impulsan una adopción real o solo cuentas vacías? Completitud de perfiles en 120 instituciones del mundo, con y sin consorcio."
+      },
+      "de": {
+        "description": "Bewirken ORCID-Konsortien echte Nutzung oder nur leere Konten? Vollständigkeit der Profile an 120 Einrichtungen weltweit, mit und ohne Konsortium."
+      }
+    }
+  },
+  {
+    "id": "reform-assessment",
+    "category": "scholarly",
+    "access": "protected",
+    "title": "Reform Assessment",
+    "badge": "CoARA + DORA + Leiden",
+    "description": "Interactive toolkit for institutional research assessment reform. Self-diagnose maturity on CoARA's 10 commitments, generate action plans, and track progress.",
+    "href": "/reform-assessment/",
+    "stats": {
+      "declarations": 5,
+      "commitments": 10,
+      "actions": 38
+    },
+    "lastUpdated": "2026-04-01",
+    "i18n": {
+      "es": {
+        "description": "Herramientas interactivas para reformar la evaluación de la investigación en una institución: autodiagnóstico en los 10 compromisos de CoARA, planes de acción y seguimiento."
+      },
+      "de": {
+        "description": "Interaktives Werkzeug für die Reform der Forschungsbewertung an einer Einrichtung: Selbstdiagnose zu den 10 Verpflichtungen von CoARA, Aktionspläne und Verlaufskontrolle."
+      }
+    }
+  },
+  {
+    "id": "scielo-chile",
+    "category": "national",
+    "access": "open",
+    "title": "SciELO Chile",
+    "badge": "Crossref",
+    "description": "Crossref metadata completeness for SciELO Chile journals",
+    "href": "/scielochile/",
+    "stats": {
+      "journals": 162,
+      "works": 121832,
+      "avgScore": "42.9%"
+    },
+    "lastUpdated": "2025-03-21",
+    "i18n": {
+      "es": {
+        "description": "Completitud de los metadatos en Crossref de las revistas de SciELO Chile."
+      },
+      "de": {
+        "description": "Vollständigkeit der Crossref-Metadaten der Zeitschriften von SciELO Chile."
+      }
+    }
+  },
+  {
+    "id": "chilean-altoutputs",
+    "category": "national",
+    "access": "open",
+    "title": "Chilean AltOutputs",
+    "badge": "DataCite + ANID",
+    "description": "Beyond articles: metadata completeness of Chilean research software, datasets, notebooks and models. Where are they deposited? With what license? How well described?",
+    "href": "https://rijdho.github.io/chilean-altoutputs/",
+    "stats": {
+      "sources": 2,
+      "types": "13+",
+      "scope": "Chile"
+    },
+    "lastUpdated": "2026-04-03",
+    "i18n": {
+      "es": {
+        "description": "Más allá de los artículos: completitud de los metadatos del software, los datasets, los notebooks y los modelos de la investigación chilena. ¿Dónde se depositan? ¿Con qué licencia? ¿Qué tan bien descritos?"
+      },
+      "de": {
+        "description": "Jenseits von Artikeln: Vollständigkeit der Metadaten chilenischer Forschungssoftware, Datensätze, Notebooks und Modelle. Wo werden sie abgelegt? Unter welcher Lizenz? Wie gut beschrieben?"
+      }
+    }
+  },
+  {
+    "id": "austria",
+    "category": "national",
+    "access": "open",
+    "title": "Austria",
+    "badge": "DataCite + ORCID + ROR",
+    "description": "National open-research metadata audit: FAIR completeness of every Austrian DataCite repository (population-scale) + ORCID profile completeness of Austrian research institutions.",
+    "href": "/austria/",
+    "stats": {
+      "repositories": 81,
+      "dois": "247K",
+      "avgScore": "34.9%"
+    },
+    "lastUpdated": "2026-06-09",
+    "i18n": {
+      "es": {
+        "description": "Auditoría nacional de los metadatos de investigación abierta: completitud FAIR de todos los repositorios austriacos en DataCite y completitud de los perfiles ORCID de sus instituciones de investigación."
+      },
+      "de": {
+        "description": "Nationale Prüfung offener Forschungsmetadaten: FAIR-Vollständigkeit aller österreichischen DataCite-Repositorien und Vollständigkeit der ORCID-Profile österreichischer Forschungseinrichtungen."
+      }
+    }
+  },
+  {
+    "id": "netherlands",
+    "category": "national",
+    "access": "protected",
+    "title": "Netherlands",
+    "badge": "DataCite + ORCID + ROR",
+    "description": "National open-research metadata audit: FAIR completeness of every Dutch DataCite repository (population-scale) + ORCID profile completeness of Dutch research institutions.",
+    "href": "/netherlands/",
+    "stats": {
+      "repositories": 110,
+      "dois": "13.1M",
+      "avgScore": "34.5%"
+    },
+    "lastUpdated": "2026-06-22",
+    "i18n": {
+      "es": {
+        "description": "Auditoría nacional de los metadatos de investigación abierta: completitud FAIR de todos los repositorios neerlandeses en DataCite y completitud de los perfiles ORCID de sus instituciones de investigación."
+      },
+      "de": {
+        "description": "Nationale Prüfung offener Forschungsmetadaten: FAIR-Vollständigkeit aller niederländischen DataCite-Repositorien und Vollständigkeit der ORCID-Profile niederländischer Forschungseinrichtungen."
+      }
+    }
+  }
+]

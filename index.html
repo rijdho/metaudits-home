@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      The only policy this page can rely on is this <meta>: everything is served from this origin,
+      including the fonts (house style, self-hosted) and the cards (./data/audits.json, connect-src 'self').
+      React styles through the CSSOM, which CSP does not govern, so style-src needs no 'unsafe-inline'.
+      frame-ancestors only works as a response header, so clickjacking stays uncovered here.
+    -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'none';
+      script-src 'self';
+      style-src 'self';
+      font-src 'self';
+      img-src 'self' data:;
+      connect-src 'self';
+      form-action 'none';
+      base-uri 'none';
+      object-src 'none'" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Metadata Audits</title>
+    <meta name="description" content="Audits of how completely research is described in DataCite, Crossref, ORCID, OpenAlex and repositories. In English, Spanish and German." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
