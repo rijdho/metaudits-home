@@ -238,7 +238,7 @@
     "category": "scholarly",
     "kind": "tool",
     "access": "open",
-    "title": "Affiliation Finder",
+    "title": "ORCID Affiliation Finder",
     "badge": "ORCID + ROR",
     "description": "Find the ORCID accounts that declare an institution, narrow them by keyword, role, department, country and dates, and export the table. Runs in the browser against the public ORCID and ROR APIs.",
     "href": "https://rijdho.github.io/orcid-finder/",
