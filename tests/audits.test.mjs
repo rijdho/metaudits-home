@@ -47,6 +47,6 @@ test('the host mark matches where the card links', () => {
   for (const a of audits) assert.equal(a.host, HOSTS[new URL(a.href).host], `${a.id}: ${a.host} for ${a.href}`);
 });
 test('a licence line uses the short names only', () => {
-  const KNOWN = ['MIT', 'AGPL-3.0', 'CC BY 4.0', 'CC0 1.0'];
+  const KNOWN = ['Apache-2.0', 'AGPL-3.0', 'MIT', 'CC BY 4.0', 'CC0 1.0'];
   for (const a of audits) if ('license' in a) for (const part of a.license.split(' · ')) assert.ok(KNOWN.includes(part), `${a.id}: ${part}`);
 });

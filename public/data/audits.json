@@ -199,7 +199,7 @@
     "kind": "dashboard",
     "repo": "https://github.com/rijdho/chilean-altoutputs",
     "host": "github",
-    "license": "MIT · CC BY 4.0"
+    "license": "Apache-2.0 · CC BY 4.0"
   },
   {
     "id": "austria",
@@ -276,7 +276,7 @@
       }
     },
     "host": "github",
-    "license": "AGPL-3.0"
+    "license": "Apache-2.0"
   },
   {
     "id": "orcid-finder",
@@ -303,7 +303,7 @@
       }
     },
     "host": "github",
-    "license": "AGPL-3.0"
+    "license": "Apache-2.0"
   },
   {
     "id": "coara-action-planner",
@@ -330,7 +330,7 @@
       }
     },
     "host": "github",
-    "license": "AGPL-3.0 · CC BY 4.0"
+    "license": "Apache-2.0 · CC BY 4.0"
   },
   {
     "id": "barcelona-wg7-tf2",

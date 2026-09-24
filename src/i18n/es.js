@@ -43,7 +43,7 @@ export default {
   'stat.dois': 'DOIs',
   'val.per record': 'por registro',
   'footer.by': 'Por [Ricardo Hartley Belmar](https://rijdho.github.io) (ORCID [0000-0001-5058-9309](https://orcid.org/0000-0001-5058-9309))',
-  'footer.license': 'Código bajo MIT, textos bajo CC BY 4.0',
+  'footer.license': 'Código bajo Apache-2.0, textos bajo CC BY 4.0',
   'footer.source': '[Código en GitHub](https://github.com/rijdho/metaudits-home)',
   'rail.kind.tool': 'Herramientas',
   'rail.kind.dashboard': 'Dashboards',
