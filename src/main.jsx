@@ -29,8 +29,8 @@ function App() {
   }, [theme]);
 
   const nav = [
-    { href: "#open", step: "OP", key: "rail.open" },
-    { href: "#protected", step: "PW", key: "rail.protected" },
+    { href: "#tools", step: "TL", key: "rail.kind.tool" },
+    { href: "#dashboards", step: "DB", key: "rail.kind.dashboard" },
   ];
 
   return (

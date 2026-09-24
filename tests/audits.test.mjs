@@ -14,7 +14,8 @@ test('every card is described in English, Spanish and German', () => {
     for (const lang of ['es', 'de']) assert.ok(a.i18n?.[lang]?.description, `${a.id}: ${lang}`);
   }
 });
-test('every card has a known access level and theme', () => {
+test('every card has a known kind, access level and theme', () => {
+  for (const a of audits) assert.ok(['tool', 'dashboard'].includes(a.kind), `${a.id}: kind ${a.kind}`);
   for (const a of audits) {
     assert.ok(['open', 'protected'].includes(a.access), `${a.id}: access ${a.access}`);
     for (const cat of [en, es, de]) assert.ok(cat[`theme.${a.category}`], `${a.id}: theme ${a.category}`);
@@ -34,4 +35,10 @@ test('every card links to an absolute https URL', () => {
   // The page is served from rijdho.github.io/metaudits-home while the tools live on
   // metaudits.rijdho.org, so a relative href would point into this repository's site.
   for (const a of audits) assert.match(a.href, /^https:\/\/[a-z0-9.-]+\//, `${a.id}: ${a.href}`);
+});
+test('a GitHub tag points at a rijdho repository', () => {
+  for (const a of audits) if ('repo' in a) assert.match(a.repo, /^https:\/\/github\.com\/rijdho\/[\w.-]+$/, `${a.id}: ${a.repo}`);
+});
+test('ids are unique', () => {
+  assert.equal(new Set(audits.map((a) => a.id)).size, audits.length);
 });

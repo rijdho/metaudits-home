@@ -11,7 +11,8 @@ Available in **English, German and Spanish** (auto-detected, switchable).
 
 ```
 src/main.jsx            the house shell: rail, command bar, footer
-src/pages/HomePage.jsx  the cards, grouped into open and password-protected tools
+src/pages/HomePage.jsx  the cards, in two sections: tools and dashboards
+src/format.js           stat values in the interface language
 src/i18n/               en.js (source of truth), es.js, de.js
 src/house/              an exact copy of rijdho/house-style: never edit, run `npm run sync-house`
 src/app.css             styles for this page only
@@ -19,9 +20,15 @@ public/data/audits.json one entry per tool, with its description in each languag
 tests/                  catalogues in step; every card complete in every language; house copy intact
 ```
 
-To add or change a tool, edit `public/data/audits.json`: an `id`, `category`, `access` (`open` or
-`protected`), `title`, `badge`, `description` (English), `i18n.es.description`, `i18n.de.description`,
-`href`, `stats` and `lastUpdated`. The tests say what is missing.
+The page has two sections. **Tools** are interactive: the visitor brings the input (a repository,
+an institution, their own answers). **Dashboards** show an audit already done, to explore. A lock
+marks a password-protected page, and a GitHub mark a tool whose source is public.
+
+To add or change one, edit `public/data/audits.json`: `id`, `kind` (`tool` or `dashboard`),
+`category`, `access` (`open` or `protected`), `title`, `badge`, `description` (English),
+`i18n.es.description`, `i18n.de.description`, `href` (absolute), `repo` (only for a public
+repository), `stats` and `lastUpdated`. Stat values like `"46.9%"` or `"1.32M"` are formatted for
+each language (`src/format.js`). The tests say what is missing.
 
 ## Running it
 
