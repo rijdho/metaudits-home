@@ -109,20 +109,20 @@
     "access": "open",
     "title": "ORCID Adoption",
     "badge": "ORCID + OpenAlex",
-    "description": "Do ORCID consortia drive meaningful adoption or just empty accounts? Profile completeness across 120 institutions worldwide, consortium vs non-consortium.",
+    "description": "Do ORCID consortia drive meaningful adoption or just empty accounts? Profile completeness across 95 institutions worldwide, consortium vs non-consortium.",
     "href": "https://metaudits.rijdho.org/orcid-adoption/",
     "stats": {
-      "institutions": 120,
+      "institutions": 95,
       "continents": 6,
-      "profiles": "200K+"
+      "profiles": 212651
     },
     "lastUpdated": "2026-04-01",
     "i18n": {
       "es": {
-        "description": "¿Los consorcios ORCID impulsan una adopción real o solo cuentas vacías? Completitud de perfiles en 120 instituciones del mundo, con y sin consorcio."
+        "description": "¿Los consorcios ORCID impulsan una adopción real o solo cuentas vacías? Completitud de perfiles en 95 instituciones del mundo, con y sin consorcio."
       },
       "de": {
-        "description": "Bewirken ORCID-Konsortien echte Nutzung oder nur leere Konten? Vollständigkeit der Profile an 120 Einrichtungen weltweit, mit und ohne Konsortium."
+        "description": "Bewirken ORCID-Konsortien echte Nutzung oder nur leere Konten? Vollständigkeit der Profile an 95 Einrichtungen weltweit, mit und ohne Konsortium."
       }
     },
     "kind": "dashboard",
@@ -167,7 +167,7 @@
       "works": 121832,
       "avgScore": "42.9%"
     },
-    "lastUpdated": "2025-03-21",
+    "lastUpdated": "2026-02-14",
     "i18n": {
       "es": {
         "description": "Completitud de los metadatos en Crossref de las revistas de SciELO Chile."
@@ -190,10 +190,10 @@
     "href": "https://rijdho.github.io/chilean-altoutputs/",
     "stats": {
       "sources": 2,
-      "types": "13+",
+      "types": 9,
       "scope": "Chile"
     },
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-09-24",
     "i18n": {
       "es": {
         "description": "Más allá de los artículos: completitud de los metadatos del software, los datasets, los notebooks y los modelos de la investigación chilena. ¿Dónde se depositan? ¿Con qué licencia? ¿Qué tan bien descritos?"
@@ -218,9 +218,9 @@
     "stats": {
       "repositories": 81,
       "dois": "247K",
-      "avgScore": "34.9%"
+      "avgScore": "37.7%"
     },
-    "lastUpdated": "2026-06-09",
+    "lastUpdated": "2026-09-12",
     "i18n": {
       "es": {
         "description": "Auditoría nacional de los metadatos de investigación abierta: completitud FAIR de todos los repositorios austriacos en DataCite y completitud de los perfiles ORCID de sus instituciones de investigación."
@@ -244,9 +244,9 @@
     "stats": {
       "repositories": 110,
       "dois": "13.1M",
-      "avgScore": "34.5%"
+      "avgScore": "36.2%"
     },
-    "lastUpdated": "2026-06-22",
+    "lastUpdated": "2026-09-12",
     "i18n": {
       "es": {
         "description": "Auditoría nacional de los metadatos de investigación abierta: completitud FAIR de todos los repositorios neerlandeses en DataCite y completitud de los perfiles ORCID de sus instituciones de investigación."
@@ -271,7 +271,7 @@
     "stats": {
       "principles": 14,
       "sources": 2,
-      "version": "v1.7.1"
+      "version": "v1.9.0"
     },
     "lastUpdated": "2026-09-24",
     "i18n": {
@@ -298,9 +298,9 @@
     "stats": {
       "sources": 2,
       "exports": "CSV + JSON",
-      "version": "v1.3.1"
+      "version": "v1.4.0"
     },
-    "lastUpdated": "2026-09-04",
+    "lastUpdated": "2026-09-24",
     "i18n": {
       "es": {
         "description": "Encuentra las cuentas ORCID que declaran una institución, fíltralas por palabra clave, rol, departamento, país y fechas, y exporta la tabla. Corre en el navegador contra las API públicas de ORCID y ROR."
@@ -325,9 +325,9 @@
     "stats": {
       "commitments": 10,
       "questions": 24,
-      "version": "v1.2.0"
+      "version": "v1.3.0"
     },
-    "lastUpdated": "2026-08-06",
+    "lastUpdated": "2026-09-24",
     "i18n": {
       "es": {
         "description": "Autoevalúa tu institución frente a los diez compromisos de CoARA y obtén un plan de acción de reforma priorizado y editable. Todo corre en tu navegador."
