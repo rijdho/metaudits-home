@@ -110,18 +110,39 @@
     "access": "protected",
     "title": "Research Assessment Reform Toolkit",
     "badge": "CoARA + DORA + Leiden",
-    "description": "Interactive toolkit for institutional research assessment reform. Self-diagnose maturity on CoARA's 10 commitments, generate action plans, and track progress.",
+    "description": "Tools for putting research assessment reform into practice at an institution: diagnose maturity on CoARA's ten commitments, draft an action plan and track progress. The researcher profile is open; the other tools ask for an access key.",
     "href": "https://metaudits.rijdho.org/reform-assessment/",
-    "lastUpdated": "2026-04-01",
+    "lastUpdated": "2026-10-13",
     "i18n": {
       "es": {
-        "description": "Herramientas interactivas para reformar la evaluación de la investigación en una institución: autodiagnóstico en los 10 compromisos de CoARA, planes de acción y seguimiento."
+        "description": "Herramientas para poner en práctica la reforma de la evaluación de la investigación en una institución: diagnóstico de madurez en los diez compromisos de CoARA, plan de acción y seguimiento. El perfil de investigador es abierto; las demás herramientas piden una clave de acceso."
       },
       "de": {
-        "description": "Interaktives Werkzeug für die Reform der Forschungsbewertung an einer Einrichtung: Selbstdiagnose zu den 10 Verpflichtungen von CoARA, Aktionspläne und Verlaufskontrolle."
+        "description": "Werkzeuge, um die Reform der Forschungsbewertung an einer Einrichtung umzusetzen: Reifegrad bei den zehn Verpflichtungen von CoARA bestimmen, einen Aktionsplan entwerfen und den Fortschritt verfolgen. Das Forschendenprofil ist offen; die übrigen Werkzeuge verlangen einen Zugangsschlüssel."
       }
     },
     "kind": "tool",
+    "host": "cloudflare",
+    "license": "MIT · CC BY 4.0"
+  },
+  {
+    "id": "researcher-narrative",
+    "category": "scholarly",
+    "kind": "tool",
+    "access": "open",
+    "title": "Researcher Narrative Profile",
+    "badge": "DORA + CoARA",
+    "description": "Enter an ORCID iD and get a narrative profile of a researcher, written by fixed rules from public records in ORCID, OpenAlex, DataCite, Crossref and GitHub, not by an AI model. Every paragraph names its sources, and it exports as schema.org JSON-LD.",
+    "href": "https://metaudits.rijdho.org/reform-assessment/actionable/researcher.html",
+    "lastUpdated": "2026-10-13",
+    "i18n": {
+      "es": {
+        "description": "Ingresa un ORCID iD y obtén un perfil narrativo de un investigador, escrito con reglas fijas a partir de registros públicos de ORCID, OpenAlex, DataCite, Crossref y GitHub, no por un modelo de IA. Cada párrafo nombra sus fuentes y el perfil se exporta como JSON-LD de schema.org."
+      },
+      "de": {
+        "description": "Geben Sie eine ORCID iD ein und erhalten Sie ein narratives Profil einer forschenden Person, nach festen Regeln aus öffentlichen Datensätzen von ORCID, OpenAlex, DataCite, Crossref und GitHub geschrieben, nicht von einem KI-Modell. Jeder Absatz nennt seine Quellen, und das Profil lässt sich als schema.org-JSON-LD exportieren."
+      }
+    },
     "host": "cloudflare",
     "license": "MIT · CC BY 4.0"
   },
@@ -220,7 +241,7 @@
     "description": "Score the FAIR metadata quality of any DataCite or OAI-PMH repository, entirely in your browser: live harvest, 14 sub-principles, nothing uploaded. The open twin of FAIR Metadata Check (Extended).",
     "href": "https://rijdho.github.io/fair-repo-audit/",
     "repo": "https://github.com/rijdho/fair-repo-audit",
-    "lastUpdated": "2026-09-24",
+    "lastUpdated": "2026-10-13",
     "i18n": {
       "es": {
         "description": "Puntúa la calidad FAIR de los metadatos de cualquier repositorio DataCite u OAI-PMH, todo en el navegador: cosecha en vivo, 14 subprincipios, nada se sube. El gemelo abierto de FAIR Metadata Check (Extended)."
@@ -231,7 +252,7 @@
     },
     "host": "github",
     "license": "MIT",
-    "version": "v1.9.0"
+    "version": "v1.17.0"
   },
   {
     "id": "orcid-finder",
@@ -243,7 +264,7 @@
     "description": "Find the ORCID accounts that declare an institution, narrow them by keyword, role, department, country and dates, and export the table. Runs in the browser against the public ORCID and ROR APIs.",
     "href": "https://rijdho.github.io/orcid-finder/",
     "repo": "https://github.com/rijdho/orcid-finder",
-    "lastUpdated": "2026-09-24",
+    "lastUpdated": "2026-10-13",
     "i18n": {
       "es": {
         "description": "Encuentra las cuentas ORCID que declaran una institución, fíltralas por palabra clave, rol, departamento, país y fechas, y exporta la tabla. Corre en el navegador contra las API públicas de ORCID y ROR."
@@ -254,7 +275,7 @@
     },
     "host": "github",
     "license": "MIT",
-    "version": "v1.4.0"
+    "version": "v1.9.0"
   },
   {
     "id": "coara-action-planner",
@@ -266,7 +287,7 @@
     "description": "Self-assess your institution against the ten CoARA commitments and get a prioritised, editable reform action plan. Everything runs in your browser.",
     "href": "https://rijdho.github.io/coara-action-planner/",
     "repo": "https://github.com/rijdho/coara-action-planner",
-    "lastUpdated": "2026-09-24",
+    "lastUpdated": "2026-10-13",
     "i18n": {
       "es": {
         "description": "Autoevalúa tu institución frente a los diez compromisos de CoARA y obtén un plan de acción de reforma priorizado y editable. Todo corre en tu navegador."
@@ -277,7 +298,7 @@
     },
     "host": "github",
     "license": "MIT · CC BY 4.0",
-    "version": "v1.3.0"
+    "version": "v1.7.0"
   },
   {
     "id": "barcelona-wg7-tf2",
@@ -289,7 +310,7 @@
     "description": "Draft for the Barcelona Declaration, Working Group 7, Task Force 2: the nine transformative benefits of open research information, as an interactive explorer.",
     "href": "https://rijdho.github.io/barcelona-wg7-tf2/",
     "repo": "https://github.com/rijdho/barcelona-wg7-tf2",
-    "lastUpdated": "2026-09-01",
+    "lastUpdated": "2026-09-24",
     "i18n": {
       "es": {
         "description": "Borrador para la Declaración de Barcelona, Grupo de Trabajo 7, Task Force 2: los nueve beneficios transformadores de la información abierta sobre investigación, como explorador interactivo."
@@ -300,6 +321,6 @@
     },
     "host": "github",
     "license": "CC BY 4.0",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   }
 ]
