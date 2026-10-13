@@ -123,7 +123,7 @@
     },
     "kind": "tool",
     "host": "cloudflare",
-    "license": "Apache-2.0 · CC BY 4.0"
+    "license": "MIT · CC BY 4.0"
   },
   {
     "id": "scielo-chile",
@@ -166,7 +166,7 @@
     "kind": "dashboard",
     "repo": "https://github.com/rijdho/chilean-altoutputs",
     "host": "github",
-    "license": "Apache-2.0 · CC BY 4.0"
+    "license": "MIT · CC BY 4.0"
   },
   {
     "id": "austria",
@@ -208,7 +208,7 @@
     },
     "kind": "dashboard",
     "host": "cloudflare",
-    "license": "Apache-2.0 · CC BY 4.0"
+    "license": "MIT · CC BY 4.0"
   },
   {
     "id": "fair-repo-audit",
@@ -230,7 +230,7 @@
       }
     },
     "host": "github",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "version": "v1.9.0"
   },
   {
@@ -253,7 +253,7 @@
       }
     },
     "host": "github",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "version": "v1.4.0"
   },
   {
@@ -276,7 +276,7 @@
       }
     },
     "host": "github",
-    "license": "Apache-2.0 · CC BY 4.0",
+    "license": "MIT · CC BY 4.0",
     "version": "v1.3.0"
   },
   {

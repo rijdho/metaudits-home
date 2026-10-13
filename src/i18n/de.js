@@ -18,7 +18,7 @@ export default {
   'theme.oer': 'Offene Bildungsressourcen',
   'theme.national': 'Nationale Prüfungen',
   'footer.by': 'Von [Ricardo Hartley Belmar](https://rijdho.github.io) (ORCID [0000-0001-5058-9309](https://orcid.org/0000-0001-5058-9309))',
-  'footer.license': 'Code unter Apache-2.0, Texte unter CC BY 4.0',
+  'footer.license': 'Code unter MIT, Texte unter CC BY 4.0',
   'footer.source': '[Quellcode auf GitHub](https://github.com/rijdho/metaudits-home)',
   'rail.kind.tool': 'Werkzeuge',
   'rail.kind.dashboard': 'Dashboards',

@@ -18,7 +18,7 @@ export default {
   'theme.oer': 'Open educational resources',
   'theme.national': 'National research audits',
   'footer.by': 'By [Ricardo Hartley Belmar](https://rijdho.github.io) (ORCID [0000-0001-5058-9309](https://orcid.org/0000-0001-5058-9309))',
-  'footer.license': 'Code under Apache-2.0, texts under CC BY 4.0',
+  'footer.license': 'Code under MIT, texts under CC BY 4.0',
   'footer.source': '[Source on GitHub](https://github.com/rijdho/metaudits-home)',
   'rail.kind.tool': 'Tools',
   'rail.kind.dashboard': 'Dashboards',

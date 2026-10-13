@@ -45,10 +45,10 @@ Nothing is loaded from another origin: the fonts are self-hosted, and a Content-
 
 ## License
 
-Code: [Apache-2.0](LICENSE), copyright 2026 Ricardo Hartley Belmar. The texts (tool descriptions in `public/data/audits.json` and the catalogues):
+Code: [MIT](LICENSE), copyright 2026 Ricardo Hartley Belmar. The texts (tool descriptions in `public/data/audits.json` and the catalogues):
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). [`NOTICE`](NOTICE) carries both, and the
-font's licence; a derivative keeps it. Until 2026-09-24 the code was under MIT, and a copy taken
-then keeps those terms.
+font's licence; a derivative keeps it. From 2026-09-24 to 2026-10-13 the code was under
+Apache-2.0, and a copy taken then keeps those terms; before and after, MIT.
 
 By [Ricardo Hartley Belmar](https://rijdho.github.io) (ORCID
 [0000-0001-5058-9309](https://orcid.org/0000-0001-5058-9309)).
