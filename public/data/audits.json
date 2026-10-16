@@ -195,15 +195,15 @@
     "access": "open",
     "title": "Austria: research metadata audit",
     "badge": "DataCite + ORCID + ROR",
-    "description": "National open-research metadata audit: FAIR completeness of every Austrian DataCite repository (population-scale) + ORCID profile completeness of Austrian research institutions.",
+    "description": "Metadata completeness and FAIR scores of repositories registered at DataCite by Austrian members, and completeness of ORCID profiles affiliated with Austrian research institutions.",
     "href": "https://metaudits.rijdho.org/austria/",
     "lastUpdated": "2026-09-12",
     "i18n": {
       "es": {
-        "description": "Auditoría nacional de los metadatos de investigación abierta: completitud FAIR de todos los repositorios austriacos en DataCite y completitud de los perfiles ORCID de sus instituciones de investigación."
+        "description": "Completitud de metadatos y puntajes FAIR de los repositorios que miembros austriacos registran en DataCite, y completitud de los perfiles ORCID afiliados a sus instituciones de investigación."
       },
       "de": {
-        "description": "Nationale Prüfung offener Forschungsmetadaten: FAIR-Vollständigkeit aller österreichischen DataCite-Repositorien und Vollständigkeit der ORCID-Profile österreichischer Forschungseinrichtungen."
+        "description": "Metadaten-Vollständigkeit und FAIR-Werte der Repositorien, die österreichische Mitglieder bei DataCite registrieren, und Vollständigkeit der ORCID-Profile mit Zugehörigkeit zu österreichischen Forschungseinrichtungen."
       }
     },
     "kind": "dashboard",
@@ -213,18 +213,18 @@
   {
     "id": "netherlands",
     "category": "national",
-    "access": "protected",
+    "access": "open",
     "title": "Netherlands: research metadata audit",
     "badge": "DataCite + ORCID + ROR",
-    "description": "National open-research metadata audit: FAIR completeness of every Dutch DataCite repository (population-scale) + ORCID profile completeness of Dutch research institutions.",
+    "description": "Metadata completeness and FAIR scores of repositories registered at DataCite by Dutch members, and completeness of ORCID profiles affiliated with Dutch research institutions.",
     "href": "https://metaudits.rijdho.org/netherlands/",
     "lastUpdated": "2026-09-12",
     "i18n": {
       "es": {
-        "description": "Auditoría nacional de los metadatos de investigación abierta: completitud FAIR de todos los repositorios neerlandeses en DataCite y completitud de los perfiles ORCID de sus instituciones de investigación."
+        "description": "Completitud de metadatos y puntajes FAIR de los repositorios que miembros neerlandeses registran en DataCite, y completitud de los perfiles ORCID afiliados a sus instituciones de investigación."
       },
       "de": {
-        "description": "Nationale Prüfung offener Forschungsmetadaten: FAIR-Vollständigkeit aller niederländischen DataCite-Repositorien und Vollständigkeit der ORCID-Profile niederländischer Forschungseinrichtungen."
+        "description": "Metadaten-Vollständigkeit und FAIR-Werte der Repositorien, die niederländische Mitglieder bei DataCite registrieren, und Vollständigkeit der ORCID-Profile mit Zugehörigkeit zu niederländischen Forschungseinrichtungen."
       }
     },
     "kind": "dashboard",
