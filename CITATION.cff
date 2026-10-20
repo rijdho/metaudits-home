@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you refer to this page, please cite it as below."
+title: "Metaudits: front page of a family of research metadata audits and tools"
+abstract: >-
+  The front page of Metaudits, a family of audits of how completely and how usefully research is
+  described in the registries it passes through (DataCite, Crossref, ORCID, OpenAlex and repositories),
+  and of tools built on the same sources. One card per audit or tool, linking to it. Code under MIT;
+  texts under CC BY 4.0.
+type: software
+authors:
+  - family-names: "Hartley Belmar"
+    given-names: "Ricardo"
+    alias: rijdho
+    orcid: "https://orcid.org/0000-0001-5058-9309"
+repository-code: "https://github.com/rijdho/metaudits-home"
+url: "https://rijdho.github.io/metaudits-home/"
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-20"
+keywords:
+  - metadata quality
+  - research information
+  - DataCite
+  - Crossref
+  - ORCID
+  - open science

@@ -1,0 +1,46 @@
+/* Styles for this page only. The look comes from src/house/house.css (a copy of the house style,
+   never edited here: run `npm run sync-house`). */
+
+.home { display: flex; flex-direction: column; gap: 40px; }
+.home-title { font-size: 1.9rem; margin: 8px 0 4px; }
+
+.access-section .muted { margin: 4px 0 18px; }
+.section-head { display: flex; align-items: baseline; gap: 10px; }
+.section-head h2 { font-size: 1.25rem; margin: 0; }
+.section-head .count { font-family: var(--mono); font-size: .75rem; color: var(--muted);
+  background: var(--surface-2); border-radius: 6px; padding: 1px 7px; }
+
+/* Compact cards: four to a row on a desktop, less padding than the house .card. */
+.tool-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); align-items: stretch; }
+.tool-card { display: flex; flex-direction: column; text-decoration: none; color: inherit; padding: 16px;
+  transition: border-color .15s, transform .15s; }
+.tool-card:hover { border-color: var(--brand); transform: translateY(-2px); }
+.tool-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.tool-theme { font-family: var(--mono); font-size: 9px; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap;
+  color: var(--brand); background: var(--brand-soft); border-radius: 6px; padding: 3px 8px; }
+.lock { color: var(--muted); display: inline-flex; }
+.lock svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; }
+.tool-title { font-size: 1rem; margin: 0 0 6px; }
+.tool-desc { color: var(--muted); font-size: .8rem; line-height: 1.45; margin: 0 0 12px; flex-grow: 1; }
+.tool-foot { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--hair);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.tool-version { font-family: var(--mono); font-size: 10px; font-weight: 700; color: var(--brand); }
+.tool-meta { margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 4px 12px; font-family: var(--mono); font-size: 10px;
+  color: var(--muted); }
+.tool-badge { font-family: var(--mono); font-size: 10px; color: var(--muted); border: 1px solid var(--border);
+  border-radius: 7px; padding: 2px 8px; line-height: 1.4; white-space: nowrap; }
+
+/* Ends at the element's resting opacity and fills backwards only, so once it is over the element's
+   own opacity rules (the locked cards, their hover) apply again. */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: var(--rest-opacity, 1); transform: none; } }
+.fade-in { animation: fadeIn .25s ease-out backwards; }
+
+/* Flags at the card's top right: the host (GitHub or Cloudflare) and the lock (password-protected). */
+.tool-flags { display: inline-flex; align-items: center; gap: 8px; }
+.host-mark { display: inline-flex; color: var(--ink-2); }
+.host-mark svg { width: 20px; height: 20px; fill: currentColor; }
+.legend { font-size: 13px; margin-top: 6px; }
+
+/* Password-protected cards recede a little, and come back on hover or keyboard focus. */
+.tool-card.is-locked { --rest-opacity: .78; opacity: .78; transition: opacity .15s ease; }
+.tool-card.is-locked:hover, .tool-card.is-locked:focus-visible { opacity: 1; }
