@@ -163,7 +163,7 @@
     "lastUpdated": "2026-10-20",
     "host": "github",
     "license": "MIT",
-    "version": "v1.18.0"
+    "version": "v1.18.1"
   },
   {
     "id": "orcid-finder",
@@ -178,7 +178,7 @@
     "lastUpdated": "2026-10-20",
     "host": "github",
     "license": "MIT",
-    "version": "v1.10.1"
+    "version": "v1.10.2"
   },
   {
     "id": "coara-action-planner",
