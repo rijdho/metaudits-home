@@ -44,12 +44,14 @@
     "access": "open",
     "title": "Publisher Gap",
     "badge": "Crossref + OpenAlex",
-    "description": "Metadata completeness of journal articles, 2015-2025: what publishers deposit in Crossref compared with what OpenAlex records.",
-    "href": "https://metaudits.rijdho.org/publisher-gap/",
-    "lastUpdated": "2026-04-01",
+    "description": "Metadata completeness of journal articles from 14 publishers, 2015-2025: what their Crossref records hold compared with the OpenAlex records of the same articles, over 26 fields.",
+    "href": "https://rijdho.github.io/publisher-gap/",
+    "lastUpdated": "2026-11-25",
     "kind": "dashboard",
-    "host": "cloudflare",
-    "license": "CC BY 4.0"
+    "host": "github",
+    "license": "MIT · CC BY 4.0",
+    "repo": "https://github.com/rijdho/publisher-gap",
+    "version": "v0.1.0"
   },
   {
     "id": "orcid-adoption",
