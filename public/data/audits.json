@@ -211,6 +211,21 @@
     "version": "v0.1.0"
   },
   {
+    "id": "actionable-smp",
+    "category": "rdm",
+    "kind": "tool",
+    "access": "open",
+    "title": "Actionable SMP",
+    "badge": "Software management plans",
+    "description": "Write a software management plan with the questions, requirements and management levels of the Practical guide to Software Management Plans (Martinez-Ortiz et al., 2023), and check it against the repository: every commitment the plan marks as in place has to be visible in the public GitHub repository.",
+    "href": "https://rijdho.github.io/smp-template/",
+    "repo": "https://github.com/rijdho/smp-template",
+    "lastUpdated": "2026-10-30",
+    "host": "github",
+    "license": "MIT · CC BY 4.0",
+    "version": "v0.1.0"
+  },
+  {
     "id": "barcelona-wg7-tf2",
     "category": "scholarly",
     "kind": "dashboard",
